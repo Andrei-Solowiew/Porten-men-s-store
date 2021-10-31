@@ -1,0 +1,53 @@
+.receipts__container {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 0 110px 0;
+}
+
+.receipts__h2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 45px;
+  margin-bottom: 83px;
+  background-image: url("../img/offer__line.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 99%;
+}
+
+.receipts__list {
+  margin-left: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.receipts__item {
+  margin-right: 23px;
+}
+
+.receipts__item:not(:last-child) {
+  margin-bottom: 45px;
+}
+
+.receipts__img {
+  margin-bottom: 26px;
+  padding: 55px 22px;
+  background-color: #191b1c;
+}
+
+.receipts__h4 {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 540px) {
+  .receipts__h2 {
+    font-size: 22px;
+  }
+
+  .receipts__h4 {
+    font-size: 16px;
+  }
+
+  .receipts__price {
+    font-size: 14px;
+  }
+}

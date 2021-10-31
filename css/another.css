@@ -1,0 +1,145 @@
+.another {
+  padding: 86px 0 100px 0;
+  background-image: url("../img/another__background.jpg");
+  background-position: center;
+}
+
+.another__container {
+  display: flex;
+}
+
+.another__left {
+  margin-right: 27px;
+}
+
+.another__h3 {
+  margin-bottom: 42px;
+}
+
+.another__p {
+  max-width: 350px;
+  font-size: 14px;
+}
+
+.another__center {
+  margin-right: 65px;
+}
+
+.another__h3_categories {
+  margin-bottom: 45px;
+}
+
+.another__list {
+  flex-wrap: wrap;
+  max-width: 315px;
+} 
+
+.another__item {
+  margin-bottom: 19px;
+}
+
+.another__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.another__btn {
+  display: inline-block;
+  padding: 13px 21px;
+}
+
+.another__btn:active {
+  color: #868686;
+}
+
+.another__p_right {
+  margin-bottom: 35px;
+}
+
+.another__form  {
+  display: flex;
+}
+
+.another__input {
+  display: inline-block;
+  width: 210px;
+  font-size: 14px;
+  padding-left: 17px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+}
+
+.another__input:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.another__input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.another__input::placeholder {
+  font-family: "pt-sans", sans-serif;
+  color: #fff;
+}
+
+.another__btn_form {
+  padding: 14px 20px;
+  cursor: pointer;
+  font-family: "pt-sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0f0f0f;
+  border: none;
+  border-radius: 0;
+}
+
+.another__btn_form:active {
+  color: #868686;
+}
+
+@media(max-width: 1024px) {
+  .another__container {
+    justify-content: center;
+  }
+
+  .another__left {
+    display: none;
+  }
+}
+
+@media(max-width: 1024px) {
+  .another {
+    background-size: cover;
+  }
+
+  .another__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .another__center {
+    margin-right: 30px;
+  }
+}
+
+@media(max-width: 420px) {
+  .another__center {
+    margin-bottom: 30px;
+  }
+
+  .another__h3 {
+    font-size: 20px;
+  }
+
+  .another__form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .another__input {
+    margin-bottom: 25px;
+    padding: 14px 20px;
+  }
+}
